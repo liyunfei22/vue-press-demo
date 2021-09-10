@@ -49,7 +49,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
-          repo: liyunfei22/liyunfei22.github.io
+          repo: vue-press-demo
           target_branch: master
           build_dir: docs/.vuepress/dist
         env:
